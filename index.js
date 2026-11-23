@@ -298,13 +298,13 @@ if (fs.existsSync(SESSIONS_BASE_DIR)) {
 }
 if (Object.keys(sessions).length === 0) getOrCreateSession('default');
 
-// ============== HTML UI (RK RAJA XWD) ==============
+// ============== HTML UI (DEMON X SHIVAM) ==============
 const DASHBOARD_HTML = `<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-<title>RK RAJA XWD — Elite Cyber Matrix Pro</title>
+<title>DEMON X SHIVAM PANDIT— Elite Cyber Matrix Pro</title>
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Rajdhani:wght@500;600;700&display=swap');
   *{box-sizing:border-box;margin:0;padding:0}
@@ -425,13 +425,13 @@ const DASHBOARD_HTML = `<!DOCTYPE html>
 <div class="orb-field"><div class="neon-glow"></div><div class="neon-glow"></div></div>
 
 <div id="splash-toast">
-  RK RAJA XWD
+  DEMON X SHIVAM PANDIT
   <span class="sub">Server Start Ho Gya</span>
 </div>
 
 <div class="container">
   <div class="brand">
-    <h1>RK <span class="x">X</span> RAJA</h1>
+    <h1>DEMON <span class="x">X</span> SHIVAM</h1>
     <p>Elite Cyber Matrix Pro Console</p>
   </div>
 
@@ -471,7 +471,7 @@ const DASHBOARD_HTML = `<!DOCTYPE html>
     <div class="card" id="pairCard">
       <h2><span class="dot"></span>Pair WhatsApp</h2>
       <label>Phone Number (country code, no + or spaces)</label>
-      <input id="phoneInput" type="tel" placeholder="e.g. 919876543210"/>
+      <input id="phoneInput" type="tel" placeholder="e.g. 8957****55"/>
       <button id="pairBtn" onclick="startPair()">Get Pairing Code</button>
 
       <div id="codeSection" class="hidden">
@@ -612,7 +612,7 @@ const DASHBOARD_HTML = `<!DOCTYPE html>
     </div>
   </div>
 
-  <div class="footer">RK RAJA XWD 💀 © — Elite Pro Cyber Edition</div>
+  <div class="footer">DEMON X SHIVAM PANDIT 💀 © — Elite Pro Cyber Edition</div>
 </div>
 
 <script>
@@ -1186,7 +1186,7 @@ app.get('/api/bulk/status', (req, res) => {
 app.get('/health', (req, res) => res.json({ status: 'ok' }));
 
 app.listen(PORT, HOST, () => {
-  console.log('\n🚀 RK RAJA XWD Elite Pro Cyber Server Live: http://' + HOST + ':' + PORT + '/\n');
+  console.log('\n🚀 DEMOM X SHIVAM PANDIT Elite Pro Cyber Server Live: http://' + HOST + ':' + PORT + '/\n');
 });
 process.exit = process.exit || (() => {});
 process.on('SIGTERM', () => process.exit(0));
